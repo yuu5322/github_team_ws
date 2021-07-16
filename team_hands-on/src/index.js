@@ -124,6 +124,14 @@
 		eqlFlag = true;
 
 	}
+
+	function add(){
+	eqlNum.value = parseFloat(midNum[0].value) + parseFloat(midNum[1].value);
+	}
+
+	function sub(){
+	eqlNum.value = parseFloat(midNum[0].value) - parseFloat(midNum[1].value);
+	}
 	
 	/* 演習の編集範囲 はじめ */
 
